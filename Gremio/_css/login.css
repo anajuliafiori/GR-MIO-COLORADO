@@ -1,0 +1,105 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    background-image: url(/_image/criancas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cfb645;
+    border: 10px solid #cfb645;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #121211;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #111;
+    border-radius: 50px;
+    color: white;
+    margin-left: 7px;
+}
+
+#logo {
+    width: 50px;
+    float: left;
+    border-radius: 50px;
+}
+
+#image2{
+    width: 50px;
+    float: right;
+    border-radius: 50px;
+}
+
+.caixa {
+    margin: 0px;
+    background-color: white;
+    border: 2px solid #cfb645;
+    border-radius: 50px;
+    padding: 15px;
+    width: 400px;
+    opacity: 70%;
+}
+
+
+#confirm {
+    width: 30%;
+    height: 30%;
+}
+
+#profile {
+    margin-left: 28%;
+    width: 200px;
+    height: 200px;
+}
+
+#fundo {
+    display: flex;
+    color: #cfb645;
+    background-color: black;
+    border-radius: 30px;
+    width: 30%;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 100px;
+    opacity: 70%;
+}
+
+#envio {
+    display: flex;
+    font-size: medium;
+    color: white;
+    background-color: #e5322a;
+    border: 1px solid #b52820;
+    border-radius: 5px;
+    width: 18%;
+    padding: 10px;
+    justify-self: end;
+    opacity: 100%;
+    margin-left: 90%;
+
+}
+
+#esqueci {
+    color: white;
+    font-size: small;
+    opacity: 100%;
+}
